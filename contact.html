@@ -8,7 +8,7 @@
 </head>
 <body>
     <hr>
-    <a href="index.html">Home</a>
+    <a href="index.html">Home</a> |
     <a href="contact.html">contact</a>
     <hr>
     <table>
@@ -20,7 +20,7 @@
         </tr>
     </table>
    <h3>contact us.......</h3>
-   <a href="https://www.facebook.com/">Facebook</a>
+   <a href="https://www.facebook.com/">Facebook</a> |
    <a href="https://www.instagram.com/">Instagram</a>
    <br><br>
    
@@ -30,20 +30,25 @@
     <tr>
       <td><label for="fName">First name: </label> </td>
      
-      <td><input type="text" id="fName"></td>
+      <td><input type="text" id="fName" pattern="[A-Za-z]+" title="This field must contain only characters!"></td>
     </tr>
       
     
     <tr>
     <td><label for="lName">Last name: </label></td>
       
-      <td><input type="text" id="lname"></td>
+      <td><input type="text" id="lname" pattern="[A-Za-z]+" title="This field must contain only characters!">></td>
     </tr>
       
     <tr>
       <td><label for="email">Email:</label></td> 
      
       <td><input type="email" id = "email"></td>
+    </tr>
+    <tr>
+      <td><label for="password">Password:</label></td> 
+     
+      <td><input type="password" id = "password" pattern="(?=.*\d)[A-Za-z].{8,}" title="Must contain at least one numerical value and at least 8 or more characters"></td>
     </tr>
     <tr>
         <td>Gender:</td> 
