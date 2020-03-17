@@ -5,101 +5,150 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>saron T</title>
+    <link rel="stylesheet" href="asset\css\style1.css">
 </head>
 <body>
-    <hr>
+  <div>
     <a href="index.html">Home</a> |
     <a href="contact.html">Contact</a> |
     <a href="gallery.html">Gallery</a>
-    <hr>
-    <table>
-        <tr>
-            <td><img src="asset\image\pexels-photo-577585.jpeg" alt="a screenshot" width="200px" height = "200px"></td>
-            <td><h1>Saron Tamirat</h1>
-                <h3>Student</h3>
-                <p>My name is saront tamirat. I am a software engineer learning at AAIT.</p></td>
-        </tr>
-    </table>
-   <h3>contact us.......</h3>
-   <a href="https://www.facebook.com/">Facebook</a> |
-   <a href="https://www.instagram.com/">Instagram</a>
-   <br><br>
+
+</div>
+    
+
+    
+    
+   <div>     
+        <img class = "inline" src="asset\image\pexels-photo-577585.jpeg" alt="computer" width="200px" height = "200px">
+        
+        
+          <div class="inline">
+            <h1>Saron Tamirat</h1>
+            <h3>Student</h3>
+            <p>My name is saront tamirat. I am a software engineer learning at AAIT.</p>
+            
+
+          </div> 
+   </div>
+    <div>
+      <h3>contact us.......</h3>
+      <a href="https://www.facebook.com/" target="_blank">Facebook</a> |
+      <a href="https://www.instagram.com/">Instagram</a>
+
+    </div>
+    
    
    
-   <table cellspacing="20px">
-     <tr>
-     <td><form action="http://www.google.com">
-    <table>
-    <tr>
-      <td><label for="fName">First name: </label> </td>
+   
+   
+      <div class="inline">
      
-      <td><input type="text" id="fName" pattern="[A-Za-z]+" title="This field must contain only characters!"></td>
-    </tr>
+     <form action="http://www.google.com" method="POST" >
+      <div class="form">
+
+        <label for="fName" >First name: </label> 
+     
+        <input  type="text" id="fName" pattern="[A-Za-z]+" title="This field must contain only characters!">
+      
+
+      </div>
+    
+     
+      
+    <div class="form">
+      <label  for="lName">Last name: </label>
+      
+     <input type="text" id="lname" pattern="[A-Za-z]+" title="This field must contain only characters!">
+
+    </div>
+  
+    
+    
+      
+    <div class="form">
+      <label  for="email">Email:</label>
+     
+      <input type="email" id = "email">
+
+    </div>
+    <div class="form">
+      <label for="password">Password:</label>
+     
+      <input type="password" id = "password" pattern="(?=.*\d)[A-Za-z].{8,}" title="Must contain at least one numerical value and at least 8 or more characters"></td>
+
+    </div>
+      
+    <div class="form">
+      <label  for="gender">Gender:</label>
+       
+           
+      <label for="radio1">Male</label>
+      <input id="radio1" type="radio" name="radio-inline-group" >
+      <label for="radio2">Female</label>
+      <input id="radio2" type="radio" name="radio-inline-group" >
+      
+      
+
+    </div>
+
       
     
-    <tr>
-    <td><label for="lName">Last name: </label></td>
-      
-      <td><input type="text" id="lname" pattern="[A-Za-z]+" title="This field must contain only characters!"></td>
-    </tr>
-      
-    <tr>
-      <td><label for="email">Email:</label></td> 
-     
-      <td><input type="email" id = "email"></td>
-    </tr>
-    <tr>
-      <td><label for="password">Password:</label></td> 
-     
-      <td><input type="password" id = "password" pattern="(?=.*\d)[A-Za-z].{8,}" title="Must contain at least one numerical value and at least 8 or more characters"></td>
-    </tr>
-    <tr>
-        <td>Gender:</td> 
+    <div class="form">
+      <label for="tel">Phone number:</label>
        
-        <td>
-            <label for="radio1">Male</label>
-            <input id="radio1" type="radio" name="radio-inline-group" >
-            <label for="radio2">Female</label>
-            <input id="radio2" type="radio" name="radio-inline-group" ></td>
-      </tr>
-    <tr>
-        <td><label for="tel">Phone number:</label></td> 
-       
-        <td><input type="tel" id = "tel"></td>
-    </tr>
+        <input type="tel" id = "tel">
+    
+
+    </div>
       
-    <tr>
-      
-      <td>where are you from?</td>
-      <td> 
-        <select name="country" id="">
-        <option value="af">africa</option>
-        <option value="as">asian</option>
-        <option value="eu">europe</option>
-        </select>
-      </td>
-    </tr>
+
+    <div class="form">
+      <label for="select"> where are you from?</label>
      
-     <tr> 
-      <td>what do you want to say?</td>  
-      <td><textarea name="" id="" cols="30" rows="10"></textarea></td>
-    </tr>
-  </table>
-    <button>submitt</button>
-    </td>  
-    <td>
-      <div class="mapouter">
+      
+      <select name="country" id="select" type="">
+      <option value="af">africa</option>
+      <option value="as">asian</option>
+      <option value="eu">europe</option>
+      </select>
+
+    </div>
+      
+    
+        
+      
+    <div class="form">
+      <label for="comment"> what do you want to say?</label>
+       
+      
+     
+     
+     
+      <textarea name="" id="comment" cols="30" rows="10" type=""></textarea>
+    
+
+
+    </div>
+     
+
+      
+      
+    <input type="submit" value="submit Your reply"> 
+  </div>
+      
+    
+    <div class="inline">
         <div class="gmap_canvas">
           <iframe width="585" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Addis%20ababa%20institute%20of%20technology&t=k&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
         </div>
           <style>.mapouter{position:relative;text-align:right;height:500px;width:585px;}.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:585px;}</style>
-        </div>
-    </td>
+    </div>
+  
     
     
    </form>
-  </tr>
-  </table>
+  
+  
   
 </body>
 </html>

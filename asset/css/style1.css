@@ -1,0 +1,28 @@
+.inline{
+    display: inline-block;
+    margin: 10px;
+    border-bottom: none;
+    
+
+}
+div{
+    margin: 5px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+div[class=form]{
+    position: relative;
+    margin-left: 1px;
+    margin-bottom:7px;
+    display: block;
+    border-bottom: none;
+
+}
+input[value]{
+    position: relative;
+    display: block;
+    width: 150px;
+    height: 30px;
+    
+}
+
