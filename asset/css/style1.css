@@ -34,4 +34,7 @@ input[value]{
     height: 30px;
     
 }
+a:hover{
+    color: gray;
+}
 
