@@ -1,0 +1,50 @@
+body{
+    text-transform: initial;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+   
+
+
+}
+
+
+
+nav{
+    
+    margin-left: 5px;
+    margin-right:5px ;
+    margin-bottom: 5px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.heading{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    width: relative;
+    border-bottom: black 1px solid;
+    padding-bottom: 20px;
+    padding-left: 5px;
+
+}
+div.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.img{
+   
+    margin: 1.6%;
+    float: left;
+    width: 30%;
+    height: 300px;
+    margin-bottom: 60px;
+}
+.cap{
+    text-align: center;
+    border-bottom: none;
+}

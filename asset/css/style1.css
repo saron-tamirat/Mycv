@@ -1,3 +1,9 @@
+body{
+    text-transform: initial;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+}
 .inline{
     display: inline-block;
     margin: 10px;
@@ -6,7 +12,10 @@
 
 }
 div{
-    margin: 5px;
+    
+    margin-left: 5px;
+    margin-right:5px ;
+    margin-bottom: 5px;
     padding: 10px;
     border-bottom: 1px solid black;
 }
