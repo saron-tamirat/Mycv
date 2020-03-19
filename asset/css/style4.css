@@ -1,0 +1,108 @@
+div{
+    width: 100px;
+    height: 64px;
+    float: left;
+    margin-right: 60px;
+    margin-bottom: 60px;
+    border: 1px solid darkgray;
+    
+}
+div.one{
+    width: inherit;
+    height: 20px;
+    background-color: green;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+}
+div.two{
+    width: inherit;
+    height: 20px;
+    background-color: yellow;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+}
+div.three{
+    width: inherit;
+    height: 20px;
+    background-color: red;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+}
+div.four{
+    width: inherit;
+    height: 20px;
+    background-color: lightblue;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+}
+div.five{
+    width: inherit;
+    height: 20px;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+}
+div.six{
+    width: inherit;
+    height: 20px;
+    background-color: blue;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+}
+div.seven{
+    width: inherit;
+    height: 20px;
+    background-color: black;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+}
+div.eight{
+    width: inherit;
+    height: 10px;
+    background-color: red;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+}
+div.nine{
+    width: inherit;
+    height: 40px;
+    background-color: yellow;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+}
+div.ten{
+    width: inherit;
+    height: 30px;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+}
+div.eleven{
+    width:inherit;
+    height: 30px;
+    background-color: red;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+}
+div.twelve{
+    width:inherit;
+    height: 30px;
+    background-color: blue;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+}
+div.thirteen{
+    width:inherit;
+    height: 30px;
+    background-color :rgb(238, 255, 0);
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+}
+div.fourteen{
+    width:inherit;
+    height: 20px;
+    background-color :orangered;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+}
+
+
+
