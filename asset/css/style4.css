@@ -5,6 +5,7 @@ div{
     margin-right: 60px;
     margin-bottom: 60px;
     border: 1px solid darkgray;
+    position: relative;
     
 }
 div.one{
@@ -103,6 +104,81 @@ div.fourteen{
     border-bottom: 1px solid darkgray;
     margin-bottom: unset;
 }
+div.fifteen{
+    width:100px;
+    height: 64px;
+    background-color :green;
+    border-bottom: 1px solid darkgray;
+    margin-bottom: unset;
+    
+}
+div.sixteen{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color:orangered ;
+    top: -55px;
+    left: 30px;
+    margin-bottom: -40px;
+}
+div.seventeen{
+    top: -2px;
+    width: 30px;
+    height: 64px;
+    position: relative;
+    margin-bottom: -67px;
+}
+div.eighteen{
+    left: 30px;
+    width: 70px;
+    height: 30px;
+    position: relative;
+    background-color: red;
+    margin-bottom: unset;
+}
+div.nineteen{
+    left: 30px;
+    width: 70px;
+    height: 30px;
+    position: relative;
+    background-color: green;
+    margin-bottom: unset;
+
+}
+div.twenty{
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    background-color:rgb(0, 110, 255) ;
+    top: -55px;
+    left: 30px;
+    margin-bottom: -40px;
+    
+}
+div.twentyone{
+    width:100px ;
+    height:64px;
+    margin-bottom: unset;
+    
+}
+div.twentytwo{
+    background-color: blue;
+    width: 101px;
+    height: 10px;
+    top: -40px;
+    margin-bottom:-44px;
+    border: none;
+}
+div.twentythree{
+    background-color: blue;
+    width: 10px;
+    height: 65px;
+    left: 30px;
+    top: -67px;
+    margin-bottom: -64px;
+    border: none;
+}
+
 
 
 

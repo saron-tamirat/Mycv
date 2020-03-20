@@ -15,6 +15,7 @@ body{
     border-bottom: none;
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 div{
     
