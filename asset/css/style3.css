@@ -1,10 +1,8 @@
 .whole{
     width: 560px;
     height: 560px;
-    margin: auto;
-    
+    margin: auto;   
     border: none;
-
 }
 .fi{
     width: 180px;
@@ -41,41 +39,28 @@
     border-bottom: 5px solid black;
     border-right: 5px solid black;
     float: left;
-    
-
 }
 .si{
     width: 180px;
     height: 180px;
     border-bottom: 5px solid black;
     float: left;
-    
-
 }
 .se{
     width: 180px;
     height: 180px;
-    
     border-right: 5px solid black;
     float: left;
-    
-
 }
 .ei{
     width: 180px;
-    height: 180px;
-   
+    height: 180px;   
     border-right: 5px solid black;
     float: left;
-    
-
 }
 .ni{
     width: 180px;
-    height: 180px;
-   
+    height: 180px; 
     float: left;
-    
-
 }
 
