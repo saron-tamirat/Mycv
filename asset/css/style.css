@@ -36,15 +36,19 @@ article{
     font-style: italic;
     
 }
-nav>ul>li{
-    display: inline-block;
+nav{
+    display: flex;
     padding: 10px 3px;
+    flex-direction: row;
+    justify-content: space-around;
     
    
 }
-nav>ul>li>a{
-    text-decoration: none;
-}
+@media only screen and (min-width: 768px) {
+    nav { flex-direction: row; }
+  }
+
+
 img{
     float: left;
     margin-right: 20px;
